@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دنیای فارسی | Persian World</title>
+  <meta name="description" content="سفری به دنیای زبان و ادبیات فارسی">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #fbf3e5;
+      color: #48252b;
+      font-family: Tahoma, Arial, sans-serif;
+      line-height: 1.9;
+    }
+    header {
+      background: #702b3a;
+      color: #fff4df;
+      padding: 18px 7%;
+      border-bottom: 4px solid #c6a15b;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .brand { font-size: 23px; font-weight: bold; }
+    nav a {
+      color: #fff4df;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .hero {
+      text-align: center;
+      padding: 75px 20px;
+      background: linear-gradient(140deg, #f8ecd7, #fff9ef);
+      border-bottom: 1px solid #e5d1ae;
+    }
+    .ornament { color: #b08a43; font-size: 30px; }
+    h1 { font-size: clamp(30px, 5vw, 48px); margin: 10px 0; }
+    .hero p { max-width: 650px; margin: 12px auto 24px; }
+    .button {
+      display: inline-block;
+      background: #702b3a;
+      color: white;
+      padding: 10px 23px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    main { max-width: 1100px; margin: auto; padding: 35px 20px 60px; }
+    .section-title { text-align: center; margin-bottom: 25px; }
+    .section-title h2 { margin-bottom: 5px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #fffaf1;
+      border: 1px solid #e5d3b3;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 4px 12px #542c2b0d;
+    }
+    .card .icon { font-size: 30px; }
+    .card h3 { color: #702b3a; margin: 8px 0; }
+    .about {
+      margin-top: 45px;
+      padding: 28px;
+      border-right: 4px solid #c6a15b;
+      background: #f3e5ce;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      background: #48252b;
+      color: #fff4df;
+    }
+    footer p { margin: 4px; }
+    @media (max-width: 600px) {
+      .nav { justify-content: center; }
+      nav { text-align: center; }
+      nav a { display: inline-block; margin: 4px; }
+      .hero { padding: 50px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">✦ دنیای فارسی</div>
+      <nav>
+        <a href="#home">خانه</a>
+        <a href="#learn">آموزش</a>
+        <a href="#literature">گنجینه ادبیات</a>
+        <a href="#about">دربارهٔ مدرس</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="ornament">❧ ✦ ❧</div>
+    <h1>به دنیای فارسی خوش آمدید</h1>
+    <p>
+      سفری دلنشین به جهان زبان، شعر و ادبیات فارسی؛
+      جایی برای آموختن، اندیشیدن و شکوفا کردن خلاقیت.
+    </p>
+    <a class="button" href="#learn">شروع سفر ادبی</a>
+    <p class="ornament">❦</p>
+  </section>
+
+  <main>
+    <section id="learn">
+      <div class="section-title">
+        <h2>دروازه‌های یادگیری</h2>
+        <p>راه خودت را در دنیای زیبای فارسی پیدا کن.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">📚</div>
+          <h3>آموزش درسی</h3>
+          <p>با دستور زبان، آرایه‌های ادبی و معنی شعر و نثر آشنا شو.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">✍️</div>
+          <h3>کارگاه نویسندگی</h3>
+          <p>ایده پیدا کن، خلاقانه بنویس و صدای خودت را کشف کن.</p>
+        </article>
+
+        <article class="card" id="literature">
+          <div class="icon">🏛️</div>
+          <h3>گنجینهٔ ادبیات</h3>
+          <p>با شاعران، نویسندگان، آثار ماندگار و قصه‌های فارسی آشنا شو.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🧩</div>
+          <h3>یادگیری با بازی</h3>
+          <p>با معماها و بازی‌های واژگانی، یادگیری را لذت‌بخش کن.</p>
+          <p><small>بخش‌های تعاملی به‌زودی</small></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>دربارهٔ مدرس</h2>
+      <p>
+        در دنیای فارسی، زبان و ادبیات را با نگاهی زنده،
+        خلاقانه و همراه با پرسش و کشف یاد می‌گیریم.
+      </p>
+      <p>
+        معرفی کامل مدرس و روش آموزشی در این بخش قرار خواهد گرفت.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>✦ دنیای فارسی | Persian World ✦</p>
+    <p>خانه‌ای برای زبان، فرهنگ و ادبیات فارسی</p>
+  </footer>
+</body>
+</html>
